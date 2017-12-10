@@ -1,6 +1,6 @@
 # Array-based Command Injection
 
-In some circumstances, software will call an external command using the a
+In some circumstances, software will call an external command using a
 function like `execve`, which takes an array instead of a string passed to
 `/bin/sh`. Sometimes, software assumes that because the command is not passed to
 a shell, it is safe to include user input in the array. However, there are
