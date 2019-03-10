@@ -14,3 +14,7 @@ is an arbitrary external command.
 
 This repository attempts to document cases of array-based command injection and
 give examples and constraints in various environments.
+
+A more comprehensive list of binaries with specific capabilities (e.g. network,
+file write, etc.) may be found at [https://gtfobins.github.io/](https://gtfobins.github.io/).
+
